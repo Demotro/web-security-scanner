@@ -26,24 +26,43 @@ Install required dependencies:
 
 ```bash
 pip install -r requirements.txt
-Usage
-
-Basic scan:
-
-python scanner.py https://example.com
+```
 
 On Windows, you can also use:
 
+```bash
+py -m pip install -r requirements.txt
+```
+
+## Usage
+
+Basic scan:
+
+```bash
+python scanner.py https://example.com
+```
+
+On Windows:
+
+```bash
 py scanner.py https://example.com
+```
 
 Scan with JSON export:
 
+```bash
 python scanner.py https://example.com --json report.json
+```
 
-or on Windows:
+On Windows:
 
+```bash
 py scanner.py https://example.com --json report.json
-Example Output
+```
+
+## Example Output
+
+```text
 Web Security Scanner CLI
 ------------------------
 Target: https://example.com
@@ -59,18 +78,25 @@ Security headers:
 [WARN] Permissions-Policy is missing
 
 Security score: 1/7
-Example JSON Report
+```
+
+## Example JSON Report
 
 The tool can export scan results into a JSON file:
 
+```bash
 py scanner.py https://example.com --json example_report.json
-Technologies Used
-Python
-requests
-argparse
-JSON
-HTTP security headers
-Disclaimer
+```
+
+## Technologies Used
+
+- Python
+- requests
+- argparse
+- JSON
+- HTTP security headers
+
+## Disclaimer
 
 This tool is intended for educational purposes and basic security checks only.
 
