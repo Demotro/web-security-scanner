@@ -85,7 +85,7 @@ Security score: 1/7
 The tool can export scan results into a JSON file:
 
 ```bash
-py scanner.py https://example.com --json example_report.json
+py scanner.py https://example.com --json report.json
 ```
 
 ## Technologies Used
