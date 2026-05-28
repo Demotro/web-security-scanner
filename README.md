@@ -99,5 +99,3 @@ py scanner.py https://example.com --json report.json
 ## Disclaimer
 
 This tool is intended for educational purposes and basic security checks only.
-
-Only scan websites that you own or have permission to test.
